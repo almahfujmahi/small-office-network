@@ -1,10 +1,30 @@
-Small Office Network by Mahi
+# Small Office Network
 
-A small office network designed and simulated using Cisco Packet Tracer
+A small office network designed and simulated using Cisco Packet Tracer.
 
-Project Overview-
+## Network Topology
 
-This project demonstrates a basic small office network with computers, switches, and a router
+- 2 PCs
+- 1 Cisco 2960 Switch
+- Copper Straight-Through cables
 
-Tools Used
-Cisco Packet Tracer
+## IP Addressing
+
+| Device | IP Address | Subnet Mask |
+|---|---|---|
+| PC-PT0 | 192.168.1.10 | 255.255.255.0 |
+| PC-PT1 | 192.168.1.20 | 255.255.255.0 |
+
+## Connectivity Test
+
+The connectivity between PC-PT0 and PC-PT1 was tested using the `ping` command.
+
+Result: **0% packet loss**
+
+## Tools
+
+- Cisco Packet Tracer
+- IPv4 Addressing
+- Basic Networking
+- Ping
+- Cisco 2960 Switch
